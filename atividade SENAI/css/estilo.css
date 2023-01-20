@@ -1,0 +1,210 @@
+/*cabeçalho*/
+
+body{
+    background-color: rgba(26, 43, 130);
+    color: white;
+    font-family: sans-serif;
+}
+
+header h1{
+    transform: translateX(75px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0 0 20px #fff;
+}
+
+#retangulo-1{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    background: linear-gradient(to right, white, black 10%, black 30%, rgba(26, 43, 130, 0.46) 58%);
+}
+
+#img-1 {
+    position: relative;
+    left: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+#img-2{
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+#dropdown{
+    background-color: rgba(26, 43, 130, 0.46);
+    border: solid 0px rgba(26, 43, 130, 0.46);
+    transform: translateY(2px);
+}
+
+.dropdown-menu{
+    width: 260px;
+}
+.carousel-inner{
+    transform: translateX(-15px);
+    width: 102%;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=search]{
+    color: white;
+    background-color: rgba(15, 13, 119, 0.7);
+    border: solid 3px black;
+}
+
+button[type=submit]{
+    color: white;
+    background-color: rgba(0,255,255, 0.5);
+    border: solid 2px gray;
+}
+
+input[type=button]{
+    color: white;
+    background-color: rgba(15, 13, 119, 0.7);
+    border: solid 2px rgba(0,255,255, 0.5);
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+}
+
+.card-title{
+    color: black;
+}
+
+.card-group{
+    width: 100%;
+}
+
+.form-control.me-2{
+    border: 2px solid gray;
+}
+
+#login{
+    text-align: center; 
+}
+
+#bt-retornar{
+    transform: translate(300px, 80px);
+}
+
+#bt-cadastrar{
+    text-align: center;
+}
+
+#section-banners img {
+    height: 600px;
+}
+
+#section-vendidos {
+    text-align: center;
+}
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+#section-vendidos img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#section-vendidos .card-text{
+    color: red;
+    font-weight: bold;
+}
+
+#section-vendidos .price {
+    color: rgb(0, 255, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#section-login{
+    margin-top: 100px;
+}
+#section-login h1 {
+    text-align: center;
+}
+
+#botao-cadastrar{
+    text-align: center;
+}
+
+#form-cadastrar {
+    display: none;
+}
+
+#voltar-topo {
+    position: fixed;
+    color: rgb(255,255,255,0.7);
+    background-color: rgb(0,0,255,0.3);
+    bottom: 5px;
+    right: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+footer p {
+    text-align: center;
+    font-weight: bold;  
+}
+
+footer img {
+    height: 70px;
+    width: 70px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul-3{
+    width: 50px;
+    position: relative;
+}
+
+#painel-1, #painel-2, #painel-3{
+    display: none;
+    position: relative;
+    color: black;
+    padding: 25px;
+}
+
+#retangulo-2{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: rgba(26, 43, 130, 0.46);
+}
+
+/*Conteudo principal*/
+
+
+/*banner*/
+
+/*Produtos vendidos*/
+/*Rodapé*/
+
+/*Botão Voltar topo*/
+
+/* página de login  */
+
+
+/* Formulário de cadastro*/
+
