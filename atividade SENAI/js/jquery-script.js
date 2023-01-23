@@ -14,6 +14,15 @@ $(document).ready(function(){
         $("footer").fadeToggle(2000);
     });
 
+
+    $("#dropdown").mouseenter(function(){
+        $("#dropdown").css("color","black");
+    });
+
+    $("#dropdown").mouseleave(function(){
+        $("#dropdown").css("color","white");
+    });
+
     $("#voltar-topo").mouseenter(function(){
         $("#voltar-topo").css("background-color","rgb(0,0,255,0.9)");
     });
