@@ -14,14 +14,15 @@ header h1{
 
 #retangulo-1{
     position: absolute;
-    width: 100%;
-    height: 72px;
-    background: linear-gradient(to right, white, black 10%, black 30%, rgba(26, 43, 130, 0.46) 58%);
+    width: 90%;
+    height: 60px;
+    background: linear-gradient(to right, white, black 9%, black 30%, rgba(26, 43, 130, 0.46) 58%);
 }
 
 #img-1 {
     position: relative;
-    left: 25px;
+    top: -5px;
+    left: 10px;
     height: 50px;
     width: 50px;
 }
@@ -32,19 +33,21 @@ header h1{
     width: 20px;
 }
 
+#login-index{
+    font-size: 20px;
+}
+
 #dropdown{
-    background-color: rgba(26, 43, 130, 0.46);
-    border: solid 0px rgba(26, 43, 130, 0.46);
+    background-color: transparent;
+    border: solid 0px transparent;
     transform: translateY(2px);
+    font-size: 20px;
 }
 
 .dropdown-menu{
     width: 260px;
 }
-.carousel-inner{
-    transform: translateX(-15px);
-    width: 102%;
-}
+
 
 input[type=text], input[type=email], input[type=password], input[type=search]{
     color: white;
@@ -104,15 +107,18 @@ input[type=button]{
 #section-vendidos {
     text-align: center;
 }
+
 #section-vendidos h2 {
     font-weight: bold;
     padding: 20px;
 }
+
 #section-vendidos img {
     width: 400px;
     height: 300px;
     border-radius: 10px;
 }
+
 #section-vendidos .card {
     margin: 5px;
     border: 1px solid white;
@@ -133,6 +139,7 @@ input[type=button]{
 #section-login{
     margin-top: 100px;
 }
+
 #section-login h1 {
     text-align: center;
 }
@@ -157,6 +164,7 @@ footer {
     position: relative;
     bottom: 0;
 }
+
 footer p {
     text-align: center;
     font-weight: bold;  
@@ -177,6 +185,7 @@ ul{
 #ul-3{
     width: 50px;
     position: relative;
+    margin-left: 100px;
 }
 
 #painel-1, #painel-2, #painel-3{
